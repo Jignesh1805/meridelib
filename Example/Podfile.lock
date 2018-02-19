@@ -1,0 +1,16 @@
+PODS:
+  - meridelib (0.1.0)
+
+DEPENDENCIES:
+  - meridelib (from `../`)
+
+EXTERNAL SOURCES:
+  meridelib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  meridelib: 6cc6a550248f1788e200b8365e1178a6ca01c31f
+
+PODFILE CHECKSUM: 9badb17f26c777f0cb28954abd60197c25166268
+
+COCOAPODS: 1.4.0

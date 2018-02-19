@@ -1,0 +1,22 @@
+{
+  "name": "meridelib",
+  "version": "0.1.0",
+  "summary": "A short description of meridelib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jignesh1805/meridelib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jignesh1805": "jigneshrathod1805@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Jignesh1805/meridelib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "meridelib/Classes/**/*"
+}

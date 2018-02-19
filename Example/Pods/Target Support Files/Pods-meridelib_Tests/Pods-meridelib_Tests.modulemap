@@ -1,0 +1,6 @@
+framework module Pods_meridelib_Tests {
+  umbrella header "Pods-meridelib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

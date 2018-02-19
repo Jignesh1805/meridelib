@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13914841BB117407212FDD128B19AE91 /* meridelib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D8C77FFEEF41CB6DE839B062661031 /* meridelib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		150C7D89D228ECB190D9BC675997B9F6 /* Pods-meridelib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A33CC71FEA0039FFC7405AB2A9575438 /* Pods-meridelib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		773A649E912CBD342B7BA577A9286D1D /* Pods-meridelib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E45D0DE4A42E2B747DDBFE12F39D6E /* Pods-meridelib_Tests-dummy.m */; };
+		94E06D8C76316736768D42CFAF5E9288 /* meridelib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1EFE0C5554DF34DF15C340BE7410A5 /* meridelib-dummy.m */; };
+		9B6CFDC66F6861F42C71A09015698361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B0D8BE93DEA2A6F4017E7E7B7B5DF86E /* Pods-meridelib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F5B86D39A4A44CAA17F4ADE928528F /* Pods-meridelib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6BBEC15398A5DCB46F71205B57BC1D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E21A01D53B308A6A7035996B68D1CFCB /* Pods-meridelib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C89D52244A896F8763A416487AD73D /* Pods-meridelib_Example-dummy.m */; };
+		FFD2108C267845B8DA90416E5ECB3E84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A10A625D95F8D2682258F95B2F1B458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 112AF77C337BE1FD7B0226DD176ED2D9;
+			remoteInfo = meridelib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B9340B16FB07380E3D02F25FD3FA325 /* Pods_meridelib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meridelib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		186470626AC114EFE91321864D713C21 /* Pods-meridelib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-meridelib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		20B94637F3091A74C938CBD4E4D00A0F /* meridelib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "meridelib-prefix.pch"; sourceTree = "<group>"; };
+		27B02366095AE0A3B870B0715CD4FDC9 /* Pods-meridelib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-meridelib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		45F5B86D39A4A44CAA17F4ADE928528F /* Pods-meridelib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-meridelib_Example-umbrella.h"; sourceTree = "<group>"; };
+		488EF57790EB6F2DF0BE7D7CC9FDE90A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		48E45D0DE4A42E2B747DDBFE12F39D6E /* Pods-meridelib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-meridelib_Tests-dummy.m"; sourceTree = "<group>"; };
+		49D8C77FFEEF41CB6DE839B062661031 /* meridelib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "meridelib-umbrella.h"; sourceTree = "<group>"; };
+		527DA2512D03C826A3976C05E73432CE /* meridelib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = meridelib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5B1EFE0C5554DF34DF15C340BE7410A5 /* meridelib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "meridelib-dummy.m"; sourceTree = "<group>"; };
+		5E597F5F689752613C46AAE5B0D10D96 /* Pods-meridelib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-meridelib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E79D2F3703AB8D0D39D15ED5BE42E89 /* meridelib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = meridelib.xcconfig; sourceTree = "<group>"; };
+		71D10AE29A1C165211442D26CE745603 /* Pods-meridelib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-meridelib_Example.modulemap"; sourceTree = "<group>"; };
+		7801FB3C6C4E4FB04161F8539D543386 /* Pods-meridelib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-meridelib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		809A6B17AD341C62A1CE39AB775666FD /* Pods-meridelib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-meridelib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89F00F7FED38A5A1D6EE2E7D92972026 /* Pods-meridelib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-meridelib_Example-resources.sh"; sourceTree = "<group>"; };
+		8F500AA75DA531BC4A74DABC68CB3D0F /* meridelib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = meridelib.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A33CC71FEA0039FFC7405AB2A9575438 /* Pods-meridelib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-meridelib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A4D9E188A140350BEF021CA1D2B485B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BD6F864F14ED916428E1F231B8E02D0B /* Pods-meridelib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-meridelib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BE79F37AE3AA53729C12856B61D6A78C /* Pods_meridelib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meridelib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C077E5D24957DCE74B5D7BA8A68A36F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97103507B324397398F057FE3E4434C /* Pods-meridelib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-meridelib_Tests-resources.sh"; sourceTree = "<group>"; };
+		CD24DC816172C24A9828A9CFA5FF9EA7 /* meridelib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = meridelib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22724C4F5FD4F5F8200BEF59279407B /* Pods-meridelib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-meridelib_Tests.modulemap"; sourceTree = "<group>"; };
+		DAC13174A246477796DE802252F65733 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE26B5AB3C8742497CE789627FA52AFB /* Pods-meridelib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-meridelib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F2C89D52244A896F8763A416487AD73D /* Pods-meridelib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-meridelib_Example-dummy.m"; sourceTree = "<group>"; };
+		F7CCD8EB5AC95F0E6BAD152372DD2F1E /* Pods-meridelib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-meridelib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBF9A67AAC667D6D89A6CBD2B3211D96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBFAC9C33B945A952583F8ADE29A1A76 /* Pods-meridelib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-meridelib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF712FC42500FE2275A478A633C9C182 /* Pods-meridelib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-meridelib_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61FB1DB5C39FC5A14BE3A82FE11103A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD2108C267845B8DA90416E5ECB3E84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD58BF11756C832CE30F73FFE6227A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6BBEC15398A5DCB46F71205B57BC1D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB88C971ADBD0231A126F08EAD11CF19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6CFDC66F6861F42C71A09015698361 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C0251C951846BFEDFC2A836FBAD74B8 /* Pods-meridelib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DAC13174A246477796DE802252F65733 /* Info.plist */,
+				71D10AE29A1C165211442D26CE745603 /* Pods-meridelib_Example.modulemap */,
+				F7CCD8EB5AC95F0E6BAD152372DD2F1E /* Pods-meridelib_Example-acknowledgements.markdown */,
+				27B02366095AE0A3B870B0715CD4FDC9 /* Pods-meridelib_Example-acknowledgements.plist */,
+				F2C89D52244A896F8763A416487AD73D /* Pods-meridelib_Example-dummy.m */,
+				186470626AC114EFE91321864D713C21 /* Pods-meridelib_Example-frameworks.sh */,
+				89F00F7FED38A5A1D6EE2E7D92972026 /* Pods-meridelib_Example-resources.sh */,
+				45F5B86D39A4A44CAA17F4ADE928528F /* Pods-meridelib_Example-umbrella.h */,
+				DE26B5AB3C8742497CE789627FA52AFB /* Pods-meridelib_Example.debug.xcconfig */,
+				FF712FC42500FE2275A478A633C9C182 /* Pods-meridelib_Example.release.xcconfig */,
+			);
+			name = "Pods-meridelib_Example";
+			path = "Target Support Files/Pods-meridelib_Example";
+			sourceTree = "<group>";
+		};
+		53FB86C783AC98269C3E923B9909B054 /* meridelib */ = {
+			isa = PBXGroup;
+			children = (
+				B1D478FB203AD25900A62121 /* Classes */,
+				FF12C0B43D6475812BE814E285302610 /* Pod */,
+				9582A41F3F894904809F11CC21CD3034 /* Support Files */,
+			);
+			name = meridelib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7EC7987AF702F83EF425D2D242FC8F17 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E934E8B65CA304420E13FA18FFDF3C6F /* Products */,
+				ED874DE9656210D226C5E3773B7BABED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EC7987AF702F83EF425D2D242FC8F17 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53FB86C783AC98269C3E923B9909B054 /* meridelib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9582A41F3F894904809F11CC21CD3034 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C077E5D24957DCE74B5D7BA8A68A36F3 /* Info.plist */,
+				8F500AA75DA531BC4A74DABC68CB3D0F /* meridelib.modulemap */,
+				6E79D2F3703AB8D0D39D15ED5BE42E89 /* meridelib.xcconfig */,
+				5B1EFE0C5554DF34DF15C340BE7410A5 /* meridelib-dummy.m */,
+				20B94637F3091A74C938CBD4E4D00A0F /* meridelib-prefix.pch */,
+				49D8C77FFEEF41CB6DE839B062661031 /* meridelib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/meridelib";
+			sourceTree = "<group>";
+		};
+		B1D478FB203AD25900A62121 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B7BD321C3D0BE3BE40C06372A91D8781 /* Pods-meridelib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FBF9A67AAC667D6D89A6CBD2B3211D96 /* Info.plist */,
+				D22724C4F5FD4F5F8200BEF59279407B /* Pods-meridelib_Tests.modulemap */,
+				809A6B17AD341C62A1CE39AB775666FD /* Pods-meridelib_Tests-acknowledgements.markdown */,
+				7801FB3C6C4E4FB04161F8539D543386 /* Pods-meridelib_Tests-acknowledgements.plist */,
+				48E45D0DE4A42E2B747DDBFE12F39D6E /* Pods-meridelib_Tests-dummy.m */,
+				BD6F864F14ED916428E1F231B8E02D0B /* Pods-meridelib_Tests-frameworks.sh */,
+				C97103507B324397398F057FE3E4434C /* Pods-meridelib_Tests-resources.sh */,
+				A33CC71FEA0039FFC7405AB2A9575438 /* Pods-meridelib_Tests-umbrella.h */,
+				FBFAC9C33B945A952583F8ADE29A1A76 /* Pods-meridelib_Tests.debug.xcconfig */,
+				5E597F5F689752613C46AAE5B0D10D96 /* Pods-meridelib_Tests.release.xcconfig */,
+			);
+			name = "Pods-meridelib_Tests";
+			path = "Target Support Files/Pods-meridelib_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E934E8B65CA304420E13FA18FFDF3C6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD24DC816172C24A9828A9CFA5FF9EA7 /* meridelib.framework */,
+				BE79F37AE3AA53729C12856B61D6A78C /* Pods_meridelib_Example.framework */,
+				0B9340B16FB07380E3D02F25FD3FA325 /* Pods_meridelib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED874DE9656210D226C5E3773B7BABED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C0251C951846BFEDFC2A836FBAD74B8 /* Pods-meridelib_Example */,
+				B7BD321C3D0BE3BE40C06372A91D8781 /* Pods-meridelib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FF12C0B43D6475812BE814E285302610 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				488EF57790EB6F2DF0BE7D7CC9FDE90A /* LICENSE */,
+				527DA2512D03C826A3976C05E73432CE /* meridelib.podspec */,
+				A4D9E188A140350BEF021CA1D2B485B2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		481584DB2E36207BE994DD9C10CC1D73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D8BE93DEA2A6F4017E7E7B7B5DF86E /* Pods-meridelib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE37F0F1D120614409E818496542D109 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150C7D89D228ECB190D9BC675997B9F6 /* Pods-meridelib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BFA2C839AD426AC1C88C68DF572B4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13914841BB117407212FDD128B19AE91 /* meridelib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		112AF77C337BE1FD7B0226DD176ED2D9 /* meridelib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51ABD598731418DC0DA7178CB113DA76 /* Build configuration list for PBXNativeTarget "meridelib" */;
+			buildPhases = (
+				F5C66A574D0F67E369B4BCEE50366970 /* Sources */,
+				CB88C971ADBD0231A126F08EAD11CF19 /* Frameworks */,
+				F4BFA2C839AD426AC1C88C68DF572B4B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meridelib;
+			productName = meridelib;
+			productReference = CD24DC816172C24A9828A9CFA5FF9EA7 /* meridelib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB20269966B61C47471D2A803793D36B /* Pods-meridelib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2D0295E6447246563FB81ABAA67BDF /* Build configuration list for PBXNativeTarget "Pods-meridelib_Tests" */;
+			buildPhases = (
+				20D5254075CCE73F3FF5C680C4F3F033 /* Sources */,
+				ADD58BF11756C832CE30F73FFE6227A8 /* Frameworks */,
+				EE37F0F1D120614409E818496542D109 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-meridelib_Tests";
+			productName = "Pods-meridelib_Tests";
+			productReference = 0B9340B16FB07380E3D02F25FD3FA325 /* Pods_meridelib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E1DE9B58CB29AE313734EDE4FFA5C703 /* Pods-meridelib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3A91142FC1CFDC958A19470E0C47721 /* Build configuration list for PBXNativeTarget "Pods-meridelib_Example" */;
+			buildPhases = (
+				0D154EA36AAAFF8CB9573787E88CA03B /* Sources */,
+				61FB1DB5C39FC5A14BE3A82FE11103A2 /* Frameworks */,
+				481584DB2E36207BE994DD9C10CC1D73 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B589C306B4C67D83605E1138FE85FB6 /* PBXTargetDependency */,
+			);
+			name = "Pods-meridelib_Example";
+			productName = "Pods-meridelib_Example";
+			productReference = BE79F37AE3AA53729C12856B61D6A78C /* Pods_meridelib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E934E8B65CA304420E13FA18FFDF3C6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				112AF77C337BE1FD7B0226DD176ED2D9 /* meridelib */,
+				E1DE9B58CB29AE313734EDE4FFA5C703 /* Pods-meridelib_Example */,
+				AB20269966B61C47471D2A803793D36B /* Pods-meridelib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D154EA36AAAFF8CB9573787E88CA03B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21A01D53B308A6A7035996B68D1CFCB /* Pods-meridelib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D5254075CCE73F3FF5C680C4F3F033 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773A649E912CBD342B7BA577A9286D1D /* Pods-meridelib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5C66A574D0F67E369B4BCEE50366970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E06D8C76316736768D42CFAF5E9288 /* meridelib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B589C306B4C67D83605E1138FE85FB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = meridelib;
+			target = 112AF77C337BE1FD7B0226DD176ED2D9 /* meridelib */;
+			targetProxy = 5A10A625D95F8D2682258F95B2F1B458 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E9DD7D80037E7E9CBCEC2A9FE04D467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE26B5AB3C8742497CE789627FA52AFB /* Pods-meridelib_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-meridelib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-meridelib_Example/Pods-meridelib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_meridelib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5775E484C3CD09DFD86922D44BDC6E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF712FC42500FE2275A478A633C9C182 /* Pods-meridelib_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-meridelib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-meridelib_Example/Pods-meridelib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_meridelib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		83810248E546EBF585E82021009AD771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E79D2F3703AB8D0D39D15ED5BE42E89 /* meridelib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/meridelib/meridelib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/meridelib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/meridelib/meridelib.modulemap";
+				PRODUCT_NAME = meridelib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D69BF41D157ED1C2BA27865D13C9AEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBFAC9C33B945A952583F8ADE29A1A76 /* Pods-meridelib_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-meridelib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-meridelib_Tests/Pods-meridelib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_meridelib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3238F033B8BCC1190E99675D9501F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E79D2F3703AB8D0D39D15ED5BE42E89 /* meridelib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/meridelib/meridelib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/meridelib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/meridelib/meridelib.modulemap";
+				PRODUCT_NAME = meridelib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF05881EBD8FD2623DE1C15322F7ADAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E597F5F689752613C46AAE5B0D10D96 /* Pods-meridelib_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-meridelib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-meridelib_Tests/Pods-meridelib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_meridelib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51ABD598731418DC0DA7178CB113DA76 /* Build configuration list for PBXNativeTarget "meridelib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83810248E546EBF585E82021009AD771 /* Debug */,
+				E3238F033B8BCC1190E99675D9501F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3A91142FC1CFDC958A19470E0C47721 /* Build configuration list for PBXNativeTarget "Pods-meridelib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E9DD7D80037E7E9CBCEC2A9FE04D467 /* Debug */,
+				5775E484C3CD09DFD86922D44BDC6E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED2D0295E6447246563FB81ABAA67BDF /* Build configuration list for PBXNativeTarget "Pods-meridelib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69BF41D157ED1C2BA27865D13C9AEAD /* Debug */,
+				FF05881EBD8FD2623DE1C15322F7ADAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
