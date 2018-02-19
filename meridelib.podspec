@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'meridelib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of meridelib.'
+  s.summary          = 'first pod create'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+    first library create
+  DESC
 
   s.homepage         = 'https://github.com/Jignesh1805/meridelib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,15 +28,19 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Jignesh1805/meridelib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'meridelib/Classes/**/*'
-  
+  s.source_files = 'Classes/**/*'
+  #s.resources = "Classes/UIView/*"
+  #s.resources = "Classes/UIView/**/*.{png,jpeg,jpg,storyboard,xib}"
+  #s.resources = "Classes/UIView/PlayerProgressView.xib"
+
+
   # s.resource_bundles = {
   #   'meridelib' => ['meridelib/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.frameworks = 'UIKit'
+   s.dependency 'GoogleAds-IMA-iOS-SDK', '~> 3.7'
 end

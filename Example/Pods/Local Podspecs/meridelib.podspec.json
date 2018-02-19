@@ -1,8 +1,8 @@
 {
   "name": "meridelib",
   "version": "0.1.0",
-  "summary": "A short description of meridelib.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Initial create library",
+  "description": "Initial pod file create",
   "homepage": "https://github.com/Jignesh1805/meridelib",
   "license": {
     "type": "MIT",
@@ -16,7 +16,13 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "meridelib/Classes/**/*"
+  "source_files": "meridelib/Classes/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "GoogleAds-IMA-iOS-SDK": [
+      "~> 3.7"
+    ]
+  }
 }

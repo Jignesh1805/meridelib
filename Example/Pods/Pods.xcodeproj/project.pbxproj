@@ -13,6 +13,21 @@
 		94E06D8C76316736768D42CFAF5E9288 /* meridelib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1EFE0C5554DF34DF15C340BE7410A5 /* meridelib-dummy.m */; };
 		9B6CFDC66F6861F42C71A09015698361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B0D8BE93DEA2A6F4017E7E7B7B5DF86E /* Pods-meridelib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45F5B86D39A4A44CAA17F4ADE928528F /* Pods-meridelib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1D47900203AE23F00A62121 /* PlayerProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D478FF203AE23F00A62121 /* PlayerProgressView.swift */; };
+		B1D47905203AE30E00A62121 /* MerideVideoPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D47904203AE30E00A62121 /* MerideVideoPlayView.swift */; };
+		B1D47908203AE36900A62121 /* MerideVideoControlProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D47907203AE36900A62121 /* MerideVideoControlProtocol.swift */; };
+		B1D4790A203AE3AC00A62121 /* MerideVideoControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D47909203AE3AC00A62121 /* MerideVideoControlView.swift */; };
+		B1D47910203AE4A100A62121 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D4790F203AE4A100A62121 /* Popover.swift */; };
+		B1D47913203AE52600A62121 /* MediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D47912203AE52600A62121 /* MediaModel.swift */; };
+		B1D47915203AE55200A62121 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D47914203AE55200A62121 /* VideoModel.swift */; };
+		B1D47918203AE5BB00A62121 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D47917203AE5BB00A62121 /* Api.swift */; };
+		B1D4791A203AE5E500A62121 /* CONSTANT.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D47919203AE5E500A62121 /* CONSTANT.swift */; };
+		B1D4791C203AE61A00A62121 /* InternetConnectiviti.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D4791B203AE61A00A62121 /* InternetConnectiviti.swift */; };
+		B1D4791F203AE64900A62121 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D4791E203AE64900A62121 /* Parser.swift */; };
+		B1D47922203AE68100A62121 /* ApiCallerListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D47921203AE68100A62121 /* ApiCallerListener.swift */; };
+		B1D47924203AE69C00A62121 /* MediaDataListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D47923203AE69C00A62121 /* MediaDataListener.swift */; };
+		B1D47926203AE6B800A62121 /* OnMerideInitilizeListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D47925203AE6B800A62121 /* OnMerideInitilizeListener.swift */; };
+		B1D47928203AE77000A62121 /* Meride.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D47927203AE77000A62121 /* Meride.swift */; };
 		C6BBEC15398A5DCB46F71205B57BC1D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E21A01D53B308A6A7035996B68D1CFCB /* Pods-meridelib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C89D52244A896F8763A416487AD73D /* Pods-meridelib_Example-dummy.m */; };
 		FFD2108C267845B8DA90416E5ECB3E84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -50,6 +65,22 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A33CC71FEA0039FFC7405AB2A9575438 /* Pods-meridelib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-meridelib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A4D9E188A140350BEF021CA1D2B485B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B1D478FF203AE23F00A62121 /* PlayerProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerProgressView.swift; sourceTree = "<group>"; };
+		B1D47904203AE30E00A62121 /* MerideVideoPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerideVideoPlayView.swift; sourceTree = "<group>"; };
+		B1D47907203AE36900A62121 /* MerideVideoControlProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerideVideoControlProtocol.swift; sourceTree = "<group>"; };
+		B1D47909203AE3AC00A62121 /* MerideVideoControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerideVideoControlView.swift; sourceTree = "<group>"; };
+		B1D4790F203AE4A100A62121 /* Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
+		B1D47912203AE52600A62121 /* MediaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaModel.swift; sourceTree = "<group>"; };
+		B1D47914203AE55200A62121 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		B1D47917203AE5BB00A62121 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		B1D47919203AE5E500A62121 /* CONSTANT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CONSTANT.swift; sourceTree = "<group>"; };
+		B1D4791B203AE61A00A62121 /* InternetConnectiviti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnectiviti.swift; sourceTree = "<group>"; };
+		B1D4791E203AE64900A62121 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		B1D47921203AE68100A62121 /* ApiCallerListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallerListener.swift; sourceTree = "<group>"; };
+		B1D47923203AE69C00A62121 /* MediaDataListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDataListener.swift; sourceTree = "<group>"; };
+		B1D47925203AE6B800A62121 /* OnMerideInitilizeListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnMerideInitilizeListener.swift; sourceTree = "<group>"; };
+		B1D47927203AE77000A62121 /* Meride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meride.swift; sourceTree = "<group>"; };
+		B1D4792E203B025300A62121 /* PlayerProgressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerProgressView.xib; sourceTree = "<group>"; };
 		BD6F864F14ED916428E1F231B8E02D0B /* Pods-meridelib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-meridelib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		BE79F37AE3AA53729C12856B61D6A78C /* Pods_meridelib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meridelib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C077E5D24957DCE74B5D7BA8A68A36F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,7 +145,7 @@
 		53FB86C783AC98269C3E923B9909B054 /* meridelib */ = {
 			isa = PBXGroup;
 			children = (
-				B1D478FB203AD25900A62121 /* Classes */,
+				B1D478FC203AE08100A62121 /* Classes */,
 				FF12C0B43D6475812BE814E285302610 /* Pod */,
 				9582A41F3F894904809F11CC21CD3034 /* Support Files */,
 			);
@@ -155,11 +186,91 @@
 			path = "Example/Pods/Target Support Files/meridelib";
 			sourceTree = "<group>";
 		};
-		B1D478FB203AD25900A62121 /* Classes */ = {
+		B1D478FC203AE08100A62121 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B1D47920203AE67100A62121 /* Listener */,
+				B1D4791D203AE63900A62121 /* XmlParser */,
+				B1D47916203AE59B00A62121 /* Network */,
+				B1D47911203AE50A00A62121 /* Model */,
+				B1D4790B203AE3E900A62121 /* Extension */,
+				B1D47906203AE34700A62121 /* Protocol */,
+				B1D47903203AE2FE00A62121 /* Controller */,
+				B1D47901203AE29600A62121 /* UIView */,
+				B1D47927203AE77000A62121 /* Meride.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		B1D47901203AE29600A62121 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				B1D478FF203AE23F00A62121 /* PlayerProgressView.swift */,
+				B1D4792E203B025300A62121 /* PlayerProgressView.xib */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		B1D47903203AE2FE00A62121 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B1D47904203AE30E00A62121 /* MerideVideoPlayView.swift */,
+				B1D47909203AE3AC00A62121 /* MerideVideoControlView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B1D47906203AE34700A62121 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B1D47907203AE36900A62121 /* MerideVideoControlProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		B1D4790B203AE3E900A62121 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B1D4790F203AE4A100A62121 /* Popover.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B1D47911203AE50A00A62121 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1D47912203AE52600A62121 /* MediaModel.swift */,
+				B1D47914203AE55200A62121 /* VideoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1D47916203AE59B00A62121 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B1D47917203AE5BB00A62121 /* Api.swift */,
+				B1D47919203AE5E500A62121 /* CONSTANT.swift */,
+				B1D4791B203AE61A00A62121 /* InternetConnectiviti.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B1D4791D203AE63900A62121 /* XmlParser */ = {
+			isa = PBXGroup;
+			children = (
+				B1D4791E203AE64900A62121 /* Parser.swift */,
+			);
+			path = XmlParser;
+			sourceTree = "<group>";
+		};
+		B1D47920203AE67100A62121 /* Listener */ = {
+			isa = PBXGroup;
+			children = (
+				B1D47921203AE68100A62121 /* ApiCallerListener.swift */,
+				B1D47923203AE69C00A62121 /* MediaDataListener.swift */,
+				B1D47925203AE6B800A62121 /* OnMerideInitilizeListener.swift */,
+			);
+			path = Listener;
 			sourceTree = "<group>";
 		};
 		B7BD321C3D0BE3BE40C06372A91D8781 /* Pods-meridelib_Tests */ = {
@@ -315,6 +426,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					112AF77C337BE1FD7B0226DD176ED2D9 = {
+						LastSwiftMigration = 0920;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -356,6 +472,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D47926203AE6B800A62121 /* OnMerideInitilizeListener.swift in Sources */,
+				B1D47918203AE5BB00A62121 /* Api.swift in Sources */,
+				B1D47922203AE68100A62121 /* ApiCallerListener.swift in Sources */,
+				B1D47900203AE23F00A62121 /* PlayerProgressView.swift in Sources */,
+				B1D47910203AE4A100A62121 /* Popover.swift in Sources */,
+				B1D47924203AE69C00A62121 /* MediaDataListener.swift in Sources */,
+				B1D47905203AE30E00A62121 /* MerideVideoPlayView.swift in Sources */,
+				B1D47915203AE55200A62121 /* VideoModel.swift in Sources */,
+				B1D4791A203AE5E500A62121 /* CONSTANT.swift in Sources */,
+				B1D47913203AE52600A62121 /* MediaModel.swift in Sources */,
+				B1D4790A203AE3AC00A62121 /* MerideVideoControlView.swift in Sources */,
+				B1D4791F203AE64900A62121 /* Parser.swift in Sources */,
+				B1D47908203AE36900A62121 /* MerideVideoControlProtocol.swift in Sources */,
+				B1D47928203AE77000A62121 /* Meride.swift in Sources */,
+				B1D4791C203AE61A00A62121 /* InternetConnectiviti.swift in Sources */,
 				94E06D8C76316736768D42CFAF5E9288 /* meridelib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -565,6 +696,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E79D2F3703AB8D0D39D15ED5BE42E89 /* meridelib.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -628,6 +760,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6E79D2F3703AB8D0D39D15ED5BE42E89 /* meridelib.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
