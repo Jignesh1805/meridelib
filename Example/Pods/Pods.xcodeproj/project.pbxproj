@@ -28,6 +28,7 @@
 		B1D47924203AE69C00A62121 /* MediaDataListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D47923203AE69C00A62121 /* MediaDataListener.swift */; };
 		B1D47926203AE6B800A62121 /* OnMerideInitilizeListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D47925203AE6B800A62121 /* OnMerideInitilizeListener.swift */; };
 		B1D47928203AE77000A62121 /* Meride.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D47927203AE77000A62121 /* Meride.swift */; };
+		B1D47950203B0C6900A62121 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D4794F203B0C6800A62121 /* UIKit.framework */; };
 		C6BBEC15398A5DCB46F71205B57BC1D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E21A01D53B308A6A7035996B68D1CFCB /* Pods-meridelib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C89D52244A896F8763A416487AD73D /* Pods-meridelib_Example-dummy.m */; };
 		FFD2108C267845B8DA90416E5ECB3E84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -81,6 +82,7 @@
 		B1D47925203AE6B800A62121 /* OnMerideInitilizeListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnMerideInitilizeListener.swift; sourceTree = "<group>"; };
 		B1D47927203AE77000A62121 /* Meride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meride.swift; sourceTree = "<group>"; };
 		B1D4792E203B025300A62121 /* PlayerProgressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerProgressView.xib; sourceTree = "<group>"; };
+		B1D4794F203B0C6800A62121 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BD6F864F14ED916428E1F231B8E02D0B /* Pods-meridelib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-meridelib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		BE79F37AE3AA53729C12856B61D6A78C /* Pods_meridelib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_meridelib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C077E5D24957DCE74B5D7BA8A68A36F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D47950203B0C6900A62121 /* UIKit.framework in Frameworks */,
 				9B6CFDC66F6861F42C71A09015698361 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +297,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B1D4794F203B0C6800A62121 /* UIKit.framework */,
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
