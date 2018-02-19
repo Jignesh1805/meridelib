@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'meridelib_Example' do
+  pod 'meridelib', :path => '../'
+
+  target 'meridelib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
