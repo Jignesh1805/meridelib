@@ -134,9 +134,11 @@ class MerideVideoControlView: UIView ,VideoStatusProtocol{
         //let bundle = Bundle(identifier: bundleIdentifier)
         //let bundle = Bundle(for: PlayerProgressView.self)
       //  progressView = bundle.loadNibNamed("PlayerProgressView", owner: nil, options: nil)?.first as! PlayerProgressView
-        progressView = Bundle.main.loadNibNamed("PlayerProgressView", owner: nil, options: nil)![0] as! PlayerProgressView
+//        progressView = Bundle.main.loadNibNamed("PlayerProgressView", owner: nil, options: nil)![0] as! PlayerProgressView
 
-        
+        var bundle = Bundle(for: PlayerProgressView.self)
+        var banners = bundle.loadNibNamed("PlayerProgressView", owner: nil, options: nil)
+        progressView = banners as! PlayerProgressView
         progressView.frame = CGRect(x: 0, y: 0, width: 120, height: 100)
         progressView.isHidden = true
         
